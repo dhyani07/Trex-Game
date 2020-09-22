@@ -34,7 +34,7 @@ function setup() {
 function draw() {
   background(180);
   
-  trex.collide(invisibleground);
+  //trex.collide(invisibleground);
   
 //jump when the space key is pressed
   if(keyDown("space") && trex.y >= 100)
